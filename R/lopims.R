@@ -247,6 +247,8 @@ lopims5 <- function(x, markerfile) {
 ##'
 ##' @import MSnbase
 ##'
+##' @importFrom Biobase exprs<-
+##'
 ##' @importFrom stats median
 ##'
 ##' @importFrom utils packageVersion
