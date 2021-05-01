@@ -245,6 +245,12 @@ lopims5 <- function(x, markerfile) {
 ##'
 ##' @import pRoloc
 ##'
+##' @import MSnbase
+##'
+##' @importFrom stats median
+##'
+##' @importFrom utils packageVersion
+##'
 ##' @export
 lopims <- function(hdmsedir = "HDMSE",
                    msedir = "MSE",

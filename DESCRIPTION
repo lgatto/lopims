@@ -2,16 +2,20 @@ Package: lopims
 Title: Synatper Pipeline for Spatial proteomics
 Version: 0.1.0
 Authors@R:
-    person(given = "Laurent",
-           family = "Gatto",
-           role = c("aut", "cre"),
-           email = "laurent.gatto@uclouvain.ne",
-           comment = c(ORCID = "0000-0002-1520-2268"))
+    c(person(given = "Laurent",
+             family = "Gatto",
+             role = c("aut", "cre"),
+             email = "laurent.gatto@uclouvain.be",
+             comment = c(ORCID = "0000-0002-1520-2268")),
+      person(given = "Pavel",
+             family = "Shliaha",
+             role = "aut"))
 Description: This package contains the 'lopims' pipeline that was
   orginially available in the 'pRoloc' package.
 License: GPL-2
 Encoding: UTF-8
-Depends: synapter, pRoloc
+Depends: synapter, pRoloc, MSnbase
+Import: utils, stats
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
